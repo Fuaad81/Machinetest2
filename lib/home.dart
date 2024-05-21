@@ -26,7 +26,9 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Center(
-                child: Text("${counter}"),
+                child: Text("${counter}",style: TextStyle(
+                  fontSize: 20
+                ),),
               )
             ],
           ),
